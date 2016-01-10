@@ -1,0 +1,15 @@
+{application, fetjaba,
+ [
+  {description, "From Erlang To Java And Back Again"},
+  {vsn, "1"},
+  {id, "fetjaba"},
+  {registered,   [fetjaba]},
+  {applications, [kernel,stdlib]},
+  {mod, {fetjaba_app, []}},
+  {env, []}
+ ]
+}.
+ 
+ 
+ 
+ 
